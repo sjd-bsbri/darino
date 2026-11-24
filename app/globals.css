@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'VazirmatnLocal';
+  src: url('/darino/fonts/Vazirmatn-Regular.ttf') format('truetype');
+  font-weight: 100 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'VazirmatnLocal';
+  src: url('/darino/fonts/Vazirmatn-Bold.ttf') format('truetype');
+  font-weight: 600 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-sans: 'VazirmatnLocal', ui-sans-serif, system-ui, sans-serif;
+}
+
+html,
+body {
+  font-family: 'VazirmatnLocal', ui-sans-serif, system-ui, sans-serif;
+}
